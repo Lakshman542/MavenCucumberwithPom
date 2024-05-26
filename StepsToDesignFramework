@@ -1,0 +1,18 @@
+Create a Maven project with maven-archetype-quickstart archetype and add dependencies in pom.xml
+Convert the project to Cucumber project
+Add src/test/resources source folder under project
+Create Features folder under src/test/resources
+Create LoginDemo.featue under Features folder and write a scenario
+Create StepDefinitions package under src/test/java
+Create LoginStepDef class file under StepDefinitions
+Implement the LoginStepDef file with Gherkin steps mentioned in feature file
+Create Runner package under src/test/java
+Create TestRunner file and implement the runner file with junit runner
+run the runner file
+
+Add extent.properties and extend-config.xml under src/test/resouces
+Add "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:" in plugin runner file
+
+we have created basic maven project with cucumber and extent reports
+
+Implement POM
